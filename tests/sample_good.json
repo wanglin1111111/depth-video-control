@@ -1,0 +1,39 @@
+{
+  "shots": [
+    {
+      "id": "SHOT-1",
+      "route": "depth",
+      "crash_points": [],
+      "depth": {
+        "source_video": "take3-two-people-rain-night.mp4",
+        "estimator": "depth-anything-v2",
+        "acceptance": {
+          "structure_ok": true,
+          "temporal_ok": true,
+          "crash_scan_ok": true,
+          "motion_ok": true
+        }
+      },
+      "prompt": "红裙女人，湿发贴脸，表情冷淡；写实电影质感，雨水反光的皮肤与绸缎裙面；雨夜霓虹，青橙对比色，情绪疏离。",
+      "prompt_elements": {
+        "subject": "红裙女人，湿发贴脸，表情冷淡",
+        "material": "写实电影质感，雨水反光的皮肤与绸缎裙面",
+        "lighting": "雨夜霓虹，青橙对比色，情绪疏离"
+      },
+      "iteration": 0
+    },
+    {
+      "id": "SHOT-2",
+      "route": "gacha",
+      "crash_points": [],
+      "prompt": "星云在深空中缓慢卷曲，粒子如金粉飘散，史诗感的抽象氛围。",
+      "prompt_elements": {
+        "subject": "星云与金粉粒子",
+        "material": "抽象史诗质感，体积光",
+        "lighting": "深空暗场，星云自发光，冷蓝底色"
+      },
+      "iteration": 1,
+      "status": "accepted"
+    }
+  ]
+}

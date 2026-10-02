@@ -1,0 +1,50 @@
+{
+  "shots": [
+    {
+      "id": "SHOT-1",
+      "route": "depth",
+      "crash_points": ["transparent"],
+      "depth": {
+        "source_video": "glass-walkway.mp4",
+        "estimator": "midas",
+        "acceptance": {
+          "structure_ok": true,
+          "temporal_ok": false,
+          "crash_scan_ok": false,
+          "motion_ok": true
+        }
+      },
+      "prompt": "电影感，画面左侧前景站着一个穿红裙的女人，她身后三米处站着一个男人，镜头从右往左缓慢横移，手持轻微晃动，雨夜东京街头。",
+      "prompt_elements": {
+        "subject": "红裙女人",
+        "material": "",
+        "lighting": "雨夜霓虹"
+      },
+      "iteration": 0
+    },
+    {
+      "id": "SHOT-2",
+      "route": "depth",
+      "crash_points": [],
+      "prompt": "男人转身挥手。",
+      "prompt_elements": {
+        "subject": "男人",
+        "material": "写实",
+        "lighting": "顺光"
+      },
+      "iteration": 3
+    },
+    {
+      "id": "SHOT-2",
+      "route": "gacha",
+      "crash_points": ["unknown_point"],
+      "prompt": "抽象粒子。",
+      "prompt_elements": {
+        "subject": "粒子",
+        "material": "体积光",
+        "lighting": "冷蓝"
+      },
+      "iteration": -1
+    }
+  ]
+}
